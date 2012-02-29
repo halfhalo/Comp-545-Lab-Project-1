@@ -3,6 +3,9 @@
   "name": "project_uno",
   "description": "Project one and two for that one class",
   "version": "0.0.1",
+	"bin": {
+		"comp545-one":"./bin/prog1.js"
+	},
   "repository": {
     "url": "git://github.com/halfhalo/Comp-545-Lab-Project-1.git"
   },
