@@ -31,7 +31,10 @@ parser.command('convert')
 	//parser.script("prog1");
 	
 	var opts=parser.parse();
-	console.log(opts)
+	if(opts.input)
+	{
+		
+	
 	var params={"input":{"num":opts.input,"base":opts["input-base"]},"output":{"base":opts["output"]}}
 	console.log(prettyjson.render(params))
 	convert.convert(params,function(err,num){
@@ -40,3 +43,4 @@ parser.command('convert')
 		console.log(num)
 		console.log("JS Internals: "+parseInt(params.input.num,params.input.base).toString(params.output.base))
 	})
+}
