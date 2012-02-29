@@ -1,0 +1,18 @@
+{
+  "author": "Patrick Roberts",
+  "name": "project_uno",
+  "description": "Project one and two for that one class",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/halfhalo/Comp-545-Lab-Project-1.git"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+  "prettyjson":"",
+  "nomnom":""
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
